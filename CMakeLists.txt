@@ -78,6 +78,14 @@ SET(ALL_LIBS
 
 INCLUDE_DIRECTORIES(
 	${CMAKE_CURRENT_SOURCE_DIR}/deps/dpdk/x86_64-native-linuxapp-gcc/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/deps/dpdk/lib/librte_ether
+        ${CMAKE_CURRENT_SOURCE_DIR}/deps/dpdk/lib/librte_net
+        ${CMAKE_CURRENT_SOURCE_DIR}/deps/dpdk/lib/librte_ring
+        ${CMAKE_CURRENT_SOURCE_DIR}/deps/dpdk/lib/librte_mempool
+        ${CMAKE_CURRENT_SOURCE_DIR}/deps/dpdk/lib/librte_kni
+        ${CMAKE_CURRENT_SOURCE_DIR}/deps/dpdk/lib/librte_kvargs
+        ${CMAKE_CURRENT_SOURCE_DIR}/deps/dpdk/lib/librte_hash
+        ${CMAKE_CURRENT_SOURCE_DIR}/deps/dpdk/lib/librte_mbuf
 	${CMAKE_CURRENT_SOURCE_DIR}/deps/dpdk/drivers/net/bnxt
 	${CMAKE_CURRENT_SOURCE_DIR}/deps/dpdk/drivers/net/ixgbe/base
 	${CMAKE_CURRENT_SOURCE_DIR}/deps/dpdk/drivers/net/ixgbe
